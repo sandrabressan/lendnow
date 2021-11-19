@@ -1,0 +1,410 @@
+.banner {
+  background-color: royalblue;
+  display: flex;
+  align-self: baseline;
+  justify-content: flex-start;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1.banner {
+  color: #ffd700;
+  text-align: center;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+h2.banner {
+  color: #ffd700;
+  padding-left: 30px;
+}
+
+.login {
+  background-color: #e3fafe;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+input.login[type="email"] {
+  width: 17.7%;
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.login[type="password"] {
+  width: 17.7%;
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.login[type="submit"] {
+  width: 19.2%;
+  background-color: #00fa9a;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h3.login {
+  margin-left: 10px;
+  color: royalblue;
+}
+
+p.login {
+  margin-left: 10px;
+}
+
+h4.login {
+  margin-left: 10px;
+  color: royalblue;
+}
+a.login {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+a.login:hover {
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: royalblue;
+  padding: 1px;
+  text-align: center;
+  color: #ffd700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  display: grid;
+}
+
+.escolha-opcoes {
+  background-color: #e3fafe;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  list-style-type: none;
+}
+
+h3.escolha-opcoes {
+  color: royalblue;
+}
+
+a.escolha-opcoes {
+  text-decoration: none;
+}
+
+a.escolha-opcoes:hover {
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+ul.escolha-opcoes {
+  color: royalblue;
+}
+
+.container-opcoes {
+  display: grid;
+  text-decoration: none;
+}
+.ficha-cadastro {
+  background-color: #e3fafe;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h2.ficha-cadastro {
+  color: #191970;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+a.ficha-cadastro {
+  text-decoration: none;
+}
+
+a.ficha-cadastro:hover {
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+th.ficha-cadastro {
+  color: royalblue;
+}
+
+input.ficha-cadastro[type="text"] {
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.ficha-cadastro[type="date"] {
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.ficha-cadastro[type="tel"] {
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.ficha-cadastro[type="email"] {
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.ficha-cadastro,
+select {
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border-color: white;
+  border-radius: 4px;
+}
+
+input.ficha-cadastro[type="submit"] {
+  background-color: #00fa9a;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container-ficha-cadastro {
+  display: grid;
+  text-decoration: none;
+}
+.cadastro-itens {
+  background-color: #e3fafe;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h2.cadastro-itens {
+  color: #191970;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+a.cadastro-itens {
+  text-decoration: none;
+}
+
+a.cadastro-itens:hover {
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+th.cadastro-itens {
+  color: royalblue;
+  margin-left: 10px;
+}
+
+p.cadastro-itens {
+  color: royalblue;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+textarea.cadastro-itens {
+  margin-left: 10px;
+  background-color: white;
+}
+
+input.cadastro-itens [type="file"] {
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.cadastro-itens[type="text"] {
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.cadastro-itens[type="number"] {
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.cadastro-itens,
+textarea {
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.cadastro-itens[type="submit"] {
+  background-color: #00fa9a;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container-cadastro-itens {
+  display: grid;
+  text-decoration: none;
+}
+.busca-itens {
+  background-color: #e3fafe;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h3.busca-itens {
+  color: #191970;
+  margin-left: 10px;
+}
+
+a.busca-itens {
+  text-decoration: none;
+}
+
+a.busca-itens:hover {
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+p.busca-itens {
+  color: royalblue;
+  margin-left: 10px;
+}
+
+input.busca-itens[type="text"] {
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.busca-itens[type="submit"] {
+  background-color: #00fa9a;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container-busca-itens {
+  display: grid;
+  text-decoration: none;
+}
+
+.lista-emprestados {
+  background-color: #e3fafe;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h3.lista-emprestados {
+  color: #191970;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+table.lista-emprestados {
+  color: royalblue;
+  width: 100%;
+  text-align: center;
+}
+
+a.lista-emprestados {
+  text-decoration: none;
+}
+
+a.lista-emprestados:hover {
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.container-lista-emprestados {
+  display: grid;
+  text-decoration: none;
+}
+
+.cadastro-emprestimo {
+  background-color: #e3fafe;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h3.cadastro-emprestimo {
+  color: #191970;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+table.cadastro-emprestimo {
+  color: royalblue;
+  width: 60%;
+  text-align: center;
+}
+
+a.cadastro-emprestimo {
+  text-decoration: none;
+}
+
+a.cadastro-emprestimo:hover {
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+input.cadastro-emprestimo[type="date"] {
+  background-color: white;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input.cadastro-emprestimo[type="submit"] {
+  background-color: #00fa9a;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+c .container-cadastro-emprestimo {
+  display: grid;
+  text-decoration: none;
+}
