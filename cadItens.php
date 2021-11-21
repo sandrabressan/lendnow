@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>LendNow-Cadastro Itens</title>
-    <link href="estilo.css" rel="stylesheet" />
-  </head>
-  <body>
+<?php
+    include "includes/banner.php";
+?>
     <div class="container-cadastro-itens">
       <div class="banner">
         <h1 class="banner">LendNow</h1>
@@ -82,8 +78,6 @@
         <a href="Itens.php" class="cadastro-itens">Voltar</a>
       </div>
     </div>
-    <footer>
-      <p>Todos os direitos reservados</p>
-    </footer>
-  </body>
-</html>
+    <?php
+  include "includes/rodape.php";
+?>

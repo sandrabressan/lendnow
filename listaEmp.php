@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>LendNow-Lista itens emprestados</title>
-    <link href="estilo.css" rel="stylesheet" />
-  </head>
-  <body>
+<?php
+    include "includes/banner.php";
+?>
     <div class="container-lista-emprestados">
       <div class="banner">
         <h1 class="banner">LendNow</h1>
@@ -25,8 +21,6 @@
         <a href="Itens.php" class="lista-emprestados">Voltar</a>
       </div>
     </div>
-    <footer>
-      <p>Todos os direitos reservados</p>
-    </footer>
-  </body>
-</html>
+    <?php
+  include "includes/rodape.php";
+?>

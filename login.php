@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>LendNow - Empréstimos de forma rápida e segura</title>
-    <link href="estilo.css" rel="stylesheet" />
-  </head>
-  <body>
+<?php
+  include "includes/banner.php";
+?>
     <div class="container">
       <div class="banner">
         <h1 class="banner">LendNow</h1>
@@ -38,8 +34,6 @@
         <a class="login" href="cadUsuario.php" class="login">Clique aqui</a>
       </div>
     </div>
-    <footer>
-      <p>Todos os direitos reservados</p>
-    </footer>
-  </body>
-</html>
+  <?php
+  include "includes/rodape.php";
+?>
