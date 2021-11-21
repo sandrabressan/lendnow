@@ -11,7 +11,7 @@
         <h2 class="banner">Empréstimos de forma rápida e segura</h2>
       </div>
       <div class="login">
-        <form action="Itens.html" method="post" name="login">
+        <form action="Itens.php" method="post" name="login">
           <h3 class="login">Login</h3>
           <p class="login">
             <input class="login"
@@ -35,7 +35,7 @@
         </form>
 
         <h4 class="login">Ainda não tem cadastro?</h4>
-        <a class="login" href="cadUsuario.html" class="login">Clique aqui</a>
+        <a class="login" href="cadUsuario.php" class="login">Clique aqui</a>
       </div>
     </div>
     <footer>

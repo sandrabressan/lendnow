@@ -13,7 +13,7 @@
         <div class="ficha-cadastro">
         <h2 class="ficha-cadastro">Ficha Cadastral</h2>
 
-            <form action="Itens.html" method="post" name="cadastrousuario">
+            <form action="Itens.php" method="post" name="cadastrousuario">
                 <table>
                     <tr>
                         <th class="ficha-cadastro">Nome</th>
@@ -85,7 +85,7 @@
                     </tr>
                 </table>
             </form><br />
-            <a href="Itens.html" class="ficha-cadastro">Voltar</a>
+            <a href="Itens.php" class="ficha-cadastro">Voltar</a>
         </div>
     </div>
     <footer>

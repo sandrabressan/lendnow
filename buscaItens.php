@@ -16,7 +16,7 @@
           <input class="busca-itens" type="text" name="buscaitem" />
           <td><input class="busca-itens" type="submit" value="Buscar" /></td>
         </p>
-        <a href="Itens.html" class="busca-itens">Voltar</a>
+        <a href="Itens.php" class="busca-itens">Voltar</a>
       </div>
     </div>
     <footer>

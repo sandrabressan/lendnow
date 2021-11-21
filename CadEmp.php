@@ -12,7 +12,7 @@
       </div>
       <div class="cadastro-emprestimo">
         <h3 class="cadastro-emprestimo">Cadastrar Empréstimo</h3>
-        <form action="buscaItens.html" method="post" name="cadastroemprestimo">
+        <form action="buscaItens.php" method="post" name="cadastroemprestimo">
           <table class="cadastro-emprestimo">
             <tr>
               <th>Nome Item</th>
@@ -43,7 +43,7 @@
           <input class="cadastro-emprestimo" type="submit" value="Cadastrar" />
         </form>
         <br />
-        <a href="Itens.html" class="cadastro-emprestimo">Voltar</a>
+        <a href="Itens.php" class="cadastro-emprestimo">Voltar</a>
       </div>
     </div>
     <footer>

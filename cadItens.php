@@ -13,7 +13,7 @@
       <div class="cadastro-itens">
         <h2 class="cadastro-itens">Cadastro Item</h2>
 
-        <form action="buscaItens.html" method="post" name="cadastroitens">
+        <form action="buscaItens.php" method="post" name="cadastroitens">
           <p class="cadastro-itens">
             Foto
             <input class="cadastro-itens" type="file" name="foto" size="20" />
@@ -79,7 +79,7 @@
             <input class="cadastro-itens" type="submit" value="Cadastrar" />
           </p>
         </form>
-        <a href="Itens.html" class="cadastro-itens">Voltar</a>
+        <a href="Itens.php" class="cadastro-itens">Voltar</a>
       </div>
     </div>
     <footer>

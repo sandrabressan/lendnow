@@ -22,7 +22,7 @@
         </table>
         <br />
 
-        <a href="Itens.html" class="lista-emprestados">Voltar</a>
+        <a href="Itens.php" class="lista-emprestados">Voltar</a>
       </div>
     </div>
     <footer>
